@@ -12,6 +12,8 @@
 		14B3168B2471729C00F4D03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B316892471729C00F4D03D /* Main.storyboard */; };
 		14B3168D2471729C00F4D03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B3168C2471729C00F4D03D /* Assets.xcassets */; };
 		14B316902471729C00F4D03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B3168E2471729C00F4D03D /* LaunchScreen.storyboard */; };
+		14B31698247179B200F4D03D /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B31697247179B200F4D03D /* PostTableViewCell.swift */; };
+		14B3169C2471979D00F4D03D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B3169B2471979D00F4D03D /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		14B3168C2471729C00F4D03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14B3168F2471729C00F4D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14B316912471729C00F4D03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B31697247179B200F4D03D /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		14B3169B2471979D00F4D03D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				14B3168C2471729C00F4D03D /* Assets.xcassets */,
 				14B3168E2471729C00F4D03D /* LaunchScreen.storyboard */,
 				14B316912471729C00F4D03D /* Info.plist */,
+				14B31697247179B200F4D03D /* PostTableViewCell.swift */,
+				14B3169B2471979D00F4D03D /* AddViewController.swift */,
 			);
 			path = CustomTableApplication;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B3169C2471979D00F4D03D /* AddViewController.swift in Sources */,
 				14B316882471729C00F4D03D /* ViewController.swift in Sources */,
 				14B316862471729C00F4D03D /* AppDelegate.swift in Sources */,
+				14B31698247179B200F4D03D /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
