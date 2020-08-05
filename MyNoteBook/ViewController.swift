@@ -16,37 +16,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        self.title = "Posts"
-        
-//        animals.append(Post(txt: "Post One", img: "https://res.cloudinary.com/dw8noz36h/image/upload/v1585252007/soumak_p6slns.jpg"))
-        
-        // register cell class
-
         tableView.delegate = self
         tableView.dataSource = self
         
+        // setup only on initial load
         if !UserDefaults().bool(forKey: "setup") {
             UserDefaults().set(true, forKey: "setup")
             UserDefaults().set(0, forKey: "count")
         }
         
-        self.updateTasks()
-
-        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(add))
-        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addClicked))
     }
     
-    @objc func add() {
+    override func viewWillAppear(_ animated: Bool) {
+        self.updateTasks()
+    }
+    
+    @objc func addClicked() {
         let vc = storyboard?.instantiateViewController(withIdentifier: "add") as! AddViewController
-        vc.title = "Add New"
-        vc.update = {
-            DispatchQueue.main.async {
-                self.updateTasks()
-            }
-        }
-        
         navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -75,12 +62,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PostTableViewCell
-        
-//        guard let cell = nameField.text else {
-//            show("No name to submit")
-//            return
-//        }
-        
+                
         cell.postTitle?.text = posts[indexPath.row]
 
         return cell

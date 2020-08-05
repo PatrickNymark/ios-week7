@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14B316822471729C00F4D03D /* CustomTableApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B316822471729C00F4D03D /* MyNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B316852471729C00F4D03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14B316872471729C00F4D03D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14B3168A2471729C00F4D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		14B316792471729C00F4D03D = {
 			isa = PBXGroup;
 			children = (
-				14B316842471729C00F4D03D /* CustomTableApplication */,
+				14B316842471729C00F4D03D /* MyNoteBook */,
 				14B316832471729C00F4D03D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		14B316832471729C00F4D03D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14B316822471729C00F4D03D /* CustomTableApplication.app */,
+				14B316822471729C00F4D03D /* MyNoteBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14B316842471729C00F4D03D /* CustomTableApplication */ = {
+		14B316842471729C00F4D03D /* MyNoteBook */ = {
 			isa = PBXGroup;
 			children = (
 				14B316852471729C00F4D03D /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				14B31697247179B200F4D03D /* PostTableViewCell.swift */,
 				14B3169B2471979D00F4D03D /* AddViewController.swift */,
 			);
-			path = CustomTableApplication;
+			path = MyNoteBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14B316812471729C00F4D03D /* CustomTableApplication */ = {
+		14B316812471729C00F4D03D /* MyNoteBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14B316942471729C00F4D03D /* Build configuration list for PBXNativeTarget "CustomTableApplication" */;
+			buildConfigurationList = 14B316942471729C00F4D03D /* Build configuration list for PBXNativeTarget "MyNoteBook" */;
 			buildPhases = (
 				14B3167E2471729C00F4D03D /* Sources */,
 				14B3167F2471729C00F4D03D /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomTableApplication;
+			name = MyNoteBook;
 			productName = CustomTableApplication;
-			productReference = 14B316822471729C00F4D03D /* CustomTableApplication.app */;
+			productReference = 14B316822471729C00F4D03D /* MyNoteBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14B3167D2471729C00F4D03D /* Build configuration list for PBXProject "CustomTableApplication" */;
+			buildConfigurationList = 14B3167D2471729C00F4D03D /* Build configuration list for PBXProject "MyNoteBook" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14B316812471729C00F4D03D /* CustomTableApplication */,
+				14B316812471729C00F4D03D /* MyNoteBook */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGVK2CD73Z;
-				INFOPLIST_FILE = CustomTableApplication/Info.plist;
+				INFOPLIST_FILE = MyNoteBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patricknymark.CustomTableApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricknymark.MyNoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +310,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGVK2CD73Z;
-				INFOPLIST_FILE = CustomTableApplication/Info.plist;
+				INFOPLIST_FILE = MyNoteBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patricknymark.CustomTableApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricknymark.MyNoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14B3167D2471729C00F4D03D /* Build configuration list for PBXProject "CustomTableApplication" */ = {
+		14B3167D2471729C00F4D03D /* Build configuration list for PBXProject "MyNoteBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14B316922471729C00F4D03D /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14B316942471729C00F4D03D /* Build configuration list for PBXNativeTarget "CustomTableApplication" */ = {
+		14B316942471729C00F4D03D /* Build configuration list for PBXNativeTarget "MyNoteBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14B316952471729C00F4D03D /* Debug */,
